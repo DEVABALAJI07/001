@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="description" content="Prabhu Studio — Professional wedding, event, portrait and product photography based in Tamil Nadu, India." />
+  <title>Prabhu Studio | Photography</title>
+
+  <!-- Favicon (replace with your favicon file) -->
+  <link rel="icon" href="images/favicon.ico" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles/styles.css" />
+
+  <!-- Open Graph / Social preview -->
+  <meta property="og:title" content="Prabhu Studio | Photography" />
+  <meta property="og:description" content="Capture Moments. Create Memories. Weddings, events, portraits, and product photography." />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Canonical (update if you have a domain) -->
+  <!-- <link rel="canonical" href="https://yourdomain.com/" /> -->
+
+  <!-- Small script loaded deferred -->
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <h1 class="brand">PRABHU STUDIO</h1>
+      <p class="tagline">Professional Photography Services</p>
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="site-main" role="main">
+    <section class="hero" aria-label="Hero: Capture Moments">
+      <div class="hero-inner container">
+        <h2>Capture Moments. Create Memories.</h2>
+        <p class="hero-sub">Weddings | Events | Portraits | Product Shoots</p>
+        <a class="btn btn-primary" href="#contact">Book Now</a>
+      </div>
+    </section>
+
+    <section id="services" class="section container" aria-labelledby="services-heading">
+      <h2 id="services-heading" class="section-title">Our Services</h2>
+      <div class="services-grid" role="list">
+        <article class="card" role="listitem" aria-labelledby="wed-title">
+          <h3 id="wed-title">Wedding Photography</h3>
+          <p>Beautiful wedding moments captured forever.</p>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="event-title">
+          <h3 id="event-title">Event Coverage</h3>
+          <p>Birthdays, engagements, corporate events.</p>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="portrait-title">
+          <h3 id="portrait-title">Portrait Shoots</h3>
+          <p>Studio & outdoor professional portraits.</p>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="product-title">
+          <h3 id="product-title">Product Photography</h3>
+          <p>High-quality product images for business.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Example portfolio placeholder -->
+    <section id="portfolio" class="section container" aria-labelledby="portfolio-heading">
+      <h2 id="portfolio-heading" class="section-title">Portfolio</h2>
+      <p class="muted">A selection of recent work. Replace these placeholders with your images.</p>
+      <div class="portfolio-grid">
+        <figure>
+          <img src="images/placeholder-1.jpg" alt="Sample wedding photograph" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="images/placeholder-2.jpg" alt="Sample portrait photograph" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="images/placeholder-3.jpg" alt="Sample product photograph" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="section container" aria-labelledby="contact-heading">
+      <h2 id="contact-heading" class="section-title">Contact Us</h2>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <p><strong>PRABHU STUDIO</strong></p>
+          <p>Phone / WhatsApp: <a href="tel:+919344461882">+91 93444 61882</a></p>
+          <p>Email: <a href="mailto:prabhustudio@gmail.com">prabhustudio@gmail.com</a></p>
+          <p>Location: Tamil Nadu, India</p>
+          <a class="btn" href="tel:+919344461882">Call Now</a>
+        </div>
+
+        <div class="contact-card">
+          <p class="muted">Send us a message — works with Formspree or mailto (see README)</p>
+
+          <!-- Example Formspree form; sign up at Formspree and replace the action URL -->
+          <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST" class="form">
+            <label>
+              <span class="sr-only">Your name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span class="sr-only">Email address</span>
+              <input type="email" name="email" placeholder="Your email" required />
+            </label>
+            <label>
+              <span class="sr-only">Message</span>
+              <textarea name="message" placeholder="How can we help?" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+
+          <p class="small muted">Alternatively you can use <a href="mailto:prabhustudio@gmail.com">prabhustudio@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© 2026 Prabhu Studio. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
